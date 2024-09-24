@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
+@font-face {
+    font-family: 'Mukta';
+    src: url('Mukta-Regular.ttf');
+}
+body {
+    background: url(https://static.vecteezy.com/system/resources/previews/002/196/245/non_2x/abstract-blue-hexagon-pattern-background-medical-and-science-technology-connection-concept-free-vector.jpg)  no-repeat;
+    background-size: cover;
+  }
+
+nav{
+
+display: flex;
+align-items: center;
+padding-top: 1%;
+padding-left: 10%;
+padding-right: 10%;
+font-weight: bold;
+font-family: 'Playpen Sans', cursive;
+
+
+}
+
+.neon{
+    font-size: 3em;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4, 
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.neon2{
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4, 
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+  .columna1{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 1px;
+    padding-left: 2%;
+    gap: 6px;
+}
+.links2{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 20px;
+    padding-left: 2%;
+    gap: 6px;
+}
+.links3{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 20px;
+    gap: 6px;
+    padding-left: 2%;
+}
+.links4{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 20px;
+    gap: 6px;
+    padding-left: 2%;
+}
+.btn{
+    position: relative;
+    padding: 80px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;  
+    text-indent: 0px;
+    z-index: 2;
+    
+    
+}
+
+/*-----------boton 1----------*/
+.btn-1 {
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    padding: 0.8em 2em;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background: #000b6e;
+    border: 2px solid #00ffea;
+    box-shadow: 0 0 20px rgba(0, 255, 234, 0.5);
+    font-family: 'Playpen Sans', cursive;
+    text-align:center;
+  }
+  
+  .btn-1:active {
+    color: #ffffff;
+    box-shadow: inset 0 0 10px rgba(0, 255, 234, 0.7);
+  }
+  
+  .btn-1:before,
+  .btn-1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 255, 234, 0.2);
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.5s;
+    border-radius: inherit;
+  }
+  
+  .btn-1:before {
+    transition-delay: 0s;
+  }
+  
+  .btn-1:after {
+    transition-delay: 0.25s;
+  }
+  
+  .btn-1:hover:before,
+  .btn-1:hover:after {
+    transform: scale(1.2);
+  }
+  
+/*-----------boton 2 la mayoria de botones ----------*/
+.btn-2 {
+    padding: 16px 24px;
+    border: 2px solid #ffffff;
+    background-color: #2e518b;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Playpen Sans', cursive;
+    text-align:center;
+  }
+  
+  .btn-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .btn-2:hover::after {
+    transform: scale(4);
+  }
+  
+  .btn-2:hover {
+    border-color: #ffffff;
+    background: #1087be;
+  }
+  
+
+/*-----------boton 3----------*/
+
+/* se deseas cambiar algun boton */ 
+.btn-3 
+/* TABLA */
+
+/* Estilo para el tabla */
+.columna2 {
+    color: #ffffff;
+    position: fixed;
+    right: 30px;
+}
+.columna3 {
+    color: #ffffff;
+    position: fixed;
+    right: 90px;
+    top: 290px;
+    
+}
+.columna4 {
+    color: #ffffff;
+    position: fixed;
+    right: 45px;
+    top: 440px;
+    
+}
+/* Estilo para el menú */
+.menu{
+
+    color: #ffffff;
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+table {
+
+border-collapse: collapse;
+width: 10%;
+
+
+}
+
+td, th{
+    padding: 10px;
+}
+
+tr{
+    transition: all ease 300ms;
+}
+
+tr:hover{
+    background-color:#1b496a ;
+}
+
+table thead{
+
+    background-color:#0a3d62;
+    border: 1px solid #fff;
+}
+table tbody{
+    background-color:#2f3640  ;
+    border: 1px solid #fff;
+}
+
+.name{
+    color: #0984e3;
+    position: fixed;
+    right: 20px;
+    top: 680px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 10px;
+}
+
